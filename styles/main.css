@@ -3717,7 +3717,7 @@ body {
 }
 
 .bg-primary {
-  background-color: rgb(165, 54, 255);
+  background-color: rgb(165, 54, 255) !important;
 }
 
 .bg-info {
