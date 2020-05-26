@@ -2831,7 +2831,7 @@ textarea.form-control:active {
 }
 
 .progress-container.progress-primary .progress {
-  background: rgba(165, 54, 255, 0.384);
+  background: rgba(247, 187, 57, 0.4);
 }
 
 .progress-container.progress-primary .progress-bar {
@@ -3337,7 +3337,7 @@ body {
 }
 
 .nav-pills .nav-item .nav-link:hover {
-  background-color: rgba(255, 167, 167, 0.452);
+  background-color: rgba(248, 139, 193, 0.548);
 }
 
 .nav-pills .nav-item .nav-link.active,
