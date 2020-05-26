@@ -1541,7 +1541,7 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 }
 
 .btn-primary {
-  background-color:#FFB236;
+  background-color: #FFB236;
   color: #FFFFFF;
 }
 
@@ -3376,7 +3376,7 @@ body {
 .nav-pills.nav-pills-primary .nav-item .nav-link.active,
 .nav-pills.nav-pills-primary .nav-item .nav-link.active:focus,
 .nav-pills.nav-pills-primary .nav-item .nav-link.active:hover {
-  background-color:rgb(255, 167, 167) !important;
+  background-color: rgb(255, 167, 167) !important;
 }
 
 .nav-pills.nav-pills-info .nav-item .nav-link.active,
@@ -3656,7 +3656,7 @@ body {
 }
 
 .navbar.navbar-transparent {
-  background-color: #FFB236!important;
+  background-color: #FFB236 !important;
   -webkit-box-shadow: none;
   box-shadow: none;
   color: #FFFFFF;
