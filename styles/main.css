@@ -1541,7 +1541,7 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 }
 
 .btn-primary {
-  background-color: #378C3F;
+  background-color: rgb(255, 191, 107);
   color: #FFFFFF;
 }
 
@@ -1556,7 +1556,7 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 .show>.btn-primary.dropdown-toggle,
 .show>.btn-primary.dropdown-toggle:focus,
 .show>.btn-primary.dropdown-toggle:hover {
-  background-color: #40a249;
+  background-color: rgb(255, 167, 51);
   color: #FFFFFF;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -2835,7 +2835,7 @@ textarea.form-control:active {
 }
 
 .progress-container.progress-primary .progress-bar {
-  background: #378C3F;
+  background: rgb(69, 134, 76);
 }
 
 .progress-container.progress-primary .progress-value,
@@ -3068,6 +3068,11 @@ optgroup,
 select,
 textarea {
   font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+}
+
+
+h4 {
+  color: #000 !important;
 }
 
 h1,
@@ -3374,7 +3379,7 @@ body {
 .nav-pills.nav-pills-primary .nav-item .nav-link.active,
 .nav-pills.nav-pills-primary .nav-item .nav-link.active:focus,
 .nav-pills.nav-pills-primary .nav-item .nav-link.active:hover {
-  background-color: #378C3F;
+  background-color: rgb(255, 70, 224) !important;
 }
 
 .nav-pills.nav-pills-info .nav-item .nav-link.active,
@@ -3654,7 +3659,7 @@ body {
 }
 
 .navbar.navbar-transparent {
-  background-color: gre !important;
+  background-color: rgb(253, 202, 135) !important;
   -webkit-box-shadow: none;
   box-shadow: none;
   color: #FFFFFF;
@@ -3691,6 +3696,14 @@ body {
 
 #card_1 {
   background-color: rgb(197, 78, 167) !important;
+}
+
+#card_2 {
+  background-color: rgb(169, 134, 252) !important;
+}
+
+#card_3 {
+  background-color: rgb(55, 209, 171) !important;
 }
 
 #family_card {
@@ -5527,7 +5540,7 @@ Created using IcoMoon - icomoon.io
   /* For Safari 5.1 to 6.0 */
   /* For Opera 11.1 to 12.0 */
   /* For Firefox 3.6 to 15 */
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(44, 44, 44, 0.2)), to(rgba(224, 23, 3, 0.6)));
+  background: -webkit-gradient(linear, left botto, left top, from(rgba(44, 44, 44, 0.2)), to(rgba(224, 23, 3, 0.6)));
   background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));
   /* Standard syntax */
 }
@@ -7685,7 +7698,7 @@ Created using IcoMoon - icomoon.io
 
 .cc-profile-image a:before {
   content: "";
-  border: 15px solid rgba(55, 140, 63, 0.6);
+  border: 15px solid rgb(255, 219, 99);
   border-radius: 50%;
   height: 180px;
   width: 180px;
@@ -7795,7 +7808,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .cc-reference .carousel-indicators .active {
-  background-color: #378C3F;
+  background-color: rgb(253, 202, 135);
 }
 
 .cc-reference .carousel-inner {
@@ -7849,7 +7862,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .cc-instagram:hover i {
-  color: #405de6;
+  color: #c9295e;
 }
 
 /* Credit Style */
