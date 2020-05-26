@@ -3366,7 +3366,7 @@ body {
 }
 
 .navbar.navbar-transparent {
-  background-color: green !important;
+  background-color: gre !important;
   -webkit-box-shadow: none;
           box-shadow: none;
   color: #FFFFFF;
@@ -3400,9 +3400,20 @@ body {
 .bg-default {
   background-color: #888 !important;
 }
-
+#card_1{
+  background-color: rgb(197, 78, 167) !important;
+}
+#family_card{
+  background-color: rgb(255, 200, 82) !important;
+}
+#card_highschool{
+  background-color: rgb(255, 102, 42) !important;
+}
+#card_ntu{
+  background-color: rgb(255, 167, 167) !important;
+}
 .bg-primary {
-  background-color: #378C3F !important;
+  background-color: #378C3F ;
 }
 
 .bg-info {
