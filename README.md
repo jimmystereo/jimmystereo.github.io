@@ -1,6 +1,6 @@
 # jimmystereo.github.io
 ## template src: https://templateflip.com/demo/?template=creative-cv   
-### 更改處: 
+## 更改處: 
 ### 1. 主色調: 
 從綠色改成橘色+紫色+粉色
 
@@ -19,3 +19,10 @@ title的icon改成自己的設計，上方和下方的twitter和google plus icon
 
 ### 6. professional skills
 更改項目、趴數
+
+## 特色
+### RWD: 
+使用響應式模板，在行動裝置上也可清楚閱讀
+
+### 配色
+配色經過特殊挑選，以呈現視覺上的衝擊和多變性，令觀看者印象深刻
