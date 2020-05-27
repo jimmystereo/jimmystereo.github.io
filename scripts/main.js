@@ -40,3 +40,7 @@ $('a.smooth-scroll')
       }
     }
   });
+
+
+  var x = document.getElementsByClassName('input_group')
+  
