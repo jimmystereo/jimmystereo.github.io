@@ -565,14 +565,14 @@
                     <div class="row">
                       <div class="col-md-6">
                         <div class="card-body">
-                          <form action="https://formspree.io/your@email.com" method="POST">
+                          <form action="https://formspree.io/jimmystereo@gmail.com" method="POST" target="_blank">
                             <div class="p pb-3"><strong>Feel free to contact me </strong></div>
                             <div class="row mb-3">
                               <div class="col">
                                 <div class="input-group"><span class="input-group-addon"><i
                                       class="fa fa-user-circle"></i></span>
                                   <input class="form-control" type="text" name="name" placeholder="Name"
-                                    required="required" />
+                                    required="required" v-model="name" />
                                 </div>
                               </div>
                             </div>
@@ -581,7 +581,7 @@
                                 <div class="input-group"><span class="input-group-addon"><i
                                       class="fa fa-file-text"></i></span>
                                   <input class="form-control" type="text" name="Subject" placeholder="Subject"
-                                    required="required" />
+                                    required="required" v-model="subject" />
                                 </div>
                               </div>
                             </div>
@@ -590,7 +590,7 @@
                                 <div class="input-group"><span class="input-group-addon"><i
                                       class="fa fa-envelope"></i></span>
                                   <input class="form-control" type="email" name="_replyto" placeholder="E-mail"
-                                    required="required" />
+                                    required="required" v-model="email" />
                                 </div>
                               </div>
                             </div>
@@ -598,13 +598,13 @@
                               <div class="col">
                                 <div class="form-group">
                                   <textarea class="form-control" name="message" placeholder="Your Message"
-                                    required="required"></textarea>
+                                    required="required" v-model="message"></textarea>
                                 </div>
                               </div>
                             </div>
                             <div class="row">
                               <div class="col">
-                                <button class="btn btn-primary" type="submit">Send</button>
+                                <button class="btn btn-primary" v-on:click="addMessage">Send</button>
                               </div>
                             </div>
                           </form>
@@ -651,6 +651,7 @@
   <script src="js/now-ui-kit.js?v=1.1.0"></script>
   <script src="js/aos.js"></script>
   <script src="scripts/main.js"></script>
+  <script src="scripts/submit.js"></script>
   <!-- The core Firebase JS SDK is always required and must be listed first -->
   <script src="/__/firebase/7.14.5/firebase-app.js"></script>
 
