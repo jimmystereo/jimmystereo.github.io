@@ -145,7 +145,7 @@
 ## 版本資訊 6/8 ~ 6/22
  ![](https://i.imgur.com/R1eGKnB.png)
  #### 下面影片為開發初期操作過程
-{%youtube KojiVVfNS20%}
+https://www.youtube.com/watch?v=KojiVVfNS20
 ### 問題解決&功能完成順序
 1. #### 製造出地圖範圍和可以移動的方塊
         這個時候對vue還不熟悉，花了很多時間研究怎麼傳遞資料，和將margin-left等轉換為座標，訂坐標系。
