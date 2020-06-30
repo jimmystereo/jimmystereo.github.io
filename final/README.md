@@ -195,3 +195,8 @@
         上網尋找適合的素材使用，和加入勝利等畫面。
 12. #### 音效
         解決audio　tag失效問題，加入音效。
+## 素材
+- ### textures.com
+https://www.textures.com/
+- ### Free Sound
+https://freesound.org/
