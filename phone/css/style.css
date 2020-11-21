@@ -1,0 +1,531 @@
+@font-face {
+    font-family: miui;
+    src: url('../source/miui.ttf') format("truetype");
+}
+
+#shadow {
+    background-color: black;
+    user-select: none;
+    position: relative;
+    width: 25%;
+    height: 5%;
+    border-radius: 1000000000%;
+    top: 67%;
+    left: 35%;
+}
+
+#read {
+    user-select: none;
+    font-family: Microsoft JhengHei;
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 5%;
+    top: 5%;
+}
+
+.phone {
+    background: black;
+    border-color: silver;
+    width: calc(75.2*4px);
+    height: calc(150*4px);
+    position: relative;
+    border-radius: calc(1.07*18px);
+    margin: 0px auto;
+    z-index: 0;
+}
+
+#cover_down {
+    background: rgb(0, 0, 0);
+    border-color: silver;
+    width: calc(75.2*4px);
+    height: calc(150*4px);
+    position: absolute;
+    border-radius: calc(1.07*18px);
+    margin: 0px auto;
+    top: 1%;
+    left: -2%;
+    z-index: 1;
+}
+
+#cover {
+    background: rgb(36, 36, 36);
+    border-color: silver;
+    width: calc(75.2*4px);
+    height: calc(150*4px);
+    position: absolute;
+    border-radius: calc(1.07*18px);
+    margin: 0px auto;
+    z-index: 2;
+}
+
+.lock_screen {
+    user-select: none;
+}
+
+#lock_clock {
+    color: transparent;
+    background: transparent;
+    width: 50%;
+    height: 8%;
+    position: absolute;
+    width: 50%;
+    left: 28%;
+    top: 7.7%;
+    letter-spacing: 4px;
+    font-size: 350%;
+    font-weight: 350;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: calc(1.07*18px);
+    margin: 0px auto;
+    z-index: 5;
+}
+
+#lock_day {
+    color: transparent;
+    background: transparent;
+    width: 50%;
+    height: 8%;
+    position: absolute;
+    width: 50%;
+    left: 33.7%;
+    top: 19.4%;
+    font-size: 80%;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: calc(1.07*18px);
+    margin: 0px auto;
+    z-index: 5;
+}
+
+#innerPhone {
+    background-image: url(../source/black_screen.jpg);
+    z-index: 3;
+}
+
+.inner_phone {
+    background-size: contain;
+    width: 93%;
+    height: 93%;
+    position: relative;
+    margin: 0px auto;
+    top: 1.7%;
+    border-radius: 15px;
+}
+
+#power_button {
+    background-color: black;
+    width: 3%;
+    height: 8%;
+    position: absolute;
+    left: 96.5%;
+    border-color: black;
+    top: 30%;
+    border-radius: 15px;
+    margin: 0px auto;
+    z-index: -1;
+}
+
+.app {
+    position: absolute;
+    z-index: -2;
+}
+
+#google:hover {
+    opacity: 0.8;
+    width: 81%;
+    height: 6%;
+    left: 9.5%;
+    top: 33.7%;
+}
+
+#google {
+    opacity: 0.5;
+    background-image: url(../source/google_bar.jpg);
+    background-size: cover;
+    top: 33.93%;
+    width: 80%;
+    height: 5.68%;
+    left: 10.2%;
+    border-radius: 10000px;
+
+}
+
+#play_store:hover {
+    width: 14.85%;
+    height: 7.48%;
+    top: 68.5%;
+    left: 32%;
+}
+
+#play_store {
+    background-image: url(../source/play_store.jpg);
+    background-size: contain;
+    top: 68.8%;
+    width: 13.4%;
+    height: 6.9%;
+    left: 32.38%;
+    border-radius: 13px;
+}
+
+#set:hover {
+    width: 14.85%;
+    height: 7.48%;
+    top: 68.5%;
+    left: 10%;
+}
+
+#set {
+    background-image: url(../source/set.jpg);
+    background-size: contain;
+    top: 68.8%;
+    width: 13.4%;
+    height: 6.9%;
+    left: 10.6%;
+    border-radius: 13px;
+}
+
+#family_mart:hover {
+    width: 14.85%;
+    height: 7.48%;
+    top: 43.7%;
+    left: 10%;
+}
+
+#family_mart {
+    background-image: url(../source/family_mart.jpg);
+    background-size: contain;
+    top: 43.94%;
+    width: 13.4%;
+    height: 6.9%;
+    left: 10.6%;
+    border-radius: 13px;
+}
+
+#receipt:hover {
+    width: 14.85%;
+    height: 7.48%;
+    top: 43.7%;
+    left: 32%;
+}
+
+#receipt {
+    background-image: url(../source/receipt.jpg);
+    background-size: contain;
+    top: 43.94%;
+    width: 13.4%;
+    height: 6.9%;
+    left: 32.38%;
+    border-radius: 13px;
+}
+
+#gallary:hover {
+    width: 14.85%;
+    height: 7.48%;
+    top: 56.1%;
+    left: 32%;
+}
+
+#gallary {
+    background-image: url(../source/gallary.jpg);
+    background-size: contain;
+    top: 56.35%;
+    width: 13.4%;
+    height: 6.9%;
+    left: 32.38%;
+    border-radius: 13px;
+}
+
+#pig:hover {
+    width: 14.85%;
+    height: 7.48%;
+    top: 43.7%;
+    left: 53.45%;
+}
+
+#pig {
+    background-image: url(../source/pig.jpg);
+    background-size: contain;
+    top: 43.94%;
+    width: 13.4%;
+    height: 6.9%;
+    left: 54.2%;
+    border-radius: 13px;
+}
+
+#onedrive:hover {
+    width: 14.85%;
+    height: 7.48%;
+    top: 43.7%;
+    left: 75.3%;
+}
+
+#onedrive {
+    background-image: url(../source/onedrive.jpg);
+    background-size: contain;
+    top: 43.94%;
+    width: 13.4%;
+    height: 6.9%;
+    left: 76%;
+    border-radius: 13px;
+}
+
+#dictionary:hover {
+    width: 14.85%;
+    height: 7.48%;
+    top: 68.5%;
+    left: 75.3%;
+}
+
+#dictionary {
+    background-image: url(../source/dictionary.jpg);
+    background-size: cover;
+    top: 68.8%;
+    width: 13.4%;
+    height: 6.9%;
+    left: 76%;
+    border-radius: 13px;
+}
+
+#jako:hover {
+    width: 14.85%;
+    height: 7.48%;
+    top: 68.5%;
+    left: 53.45%;
+}
+
+#jako {
+    background-image: url(../source/jako.jpg);
+    background-size: contain;
+    top: 68.8%;
+    width: 13.4%;
+    height: 6.9%;
+    left: 54.2%;
+    border-radius: 13px;
+}
+
+#tools:hover {
+    width: 14.85%;
+    height: 7.48%;
+    top: 56.1%;
+    left: 75.3%;
+}
+
+#tools {
+    background-image: url(../source/tools.jpg);
+    background-size: contain;
+    top: 56.35%;
+    width: 13.4%;
+    height: 6.9%;
+    left: 76%;
+    border-radius: 13px;
+}
+
+#music:hover {
+    width: 14.85%;
+    height: 7.48%;
+    top: 56.1%;
+    left: 53.46%;
+}
+
+#music {
+    background-image: url(../source/music.jpg);
+    background-size: contain;
+    top: 56.35%;
+    width: 13.4%;
+    height: 6.9%;
+    left: 54.2%;
+    border-radius: 13px;
+}
+
+#time_table:hover {
+    width: 14.85%;
+    height: 7.48%;
+    top: 56.1%;
+    left: 10%;
+}
+
+#time_table {
+    background-image: url(../source/time_table.jpg);
+    background-size: contain;
+    top: 56.35%;
+    width: 13.4%;
+    height: 6.9%;
+    left: 10.6%;
+    border-radius: 13px;
+}
+
+#line:hover {
+    width: 14.85%;
+    height: 7.48%;
+    top: 84.7%;
+    left: 24.4%;
+}
+
+#line {
+    background-image: url(../source/line.jpg);
+    background-size: cover;
+    top: 85%;
+    width: 13.4%;
+    height: 6.9%;
+    left: 25.05%;
+    border-radius: 13px;
+}
+
+#chrome:hover {
+    width: 14.85%;
+    height: 7.48%;
+    top: 84.7%;
+    left: 42.4%;
+}
+
+#chrome {
+    background-image: url(../source/chrome.jpg);
+    background-size: cover;
+    top: 85%;
+    width: 13.4%;
+    height: 6.9%;
+    left: 43.1%;
+    border-radius: 13px;
+}
+
+#camera_button:hover {
+    position: absolute;
+    opacity: 0.5;
+    background-size: cover;
+    top: 76.6%;
+    width: 16.7%;
+    height: 8.5%;
+    left: 41.5%;
+    border-radius: 200px;
+    z-index: -2;
+}
+
+#camera_button {
+    opacity: 0;
+    position: absolute;
+    background-color: gray;
+    background-size: cover;
+    top: 76.6%;
+    width: 16.7%;
+    height: 8.5%;
+    left: 41.5%;
+    border-radius: 200px;
+    z-index: -2;
+}
+
+#setting:hover {
+    width: 14.85%;
+    height: 7.48%;
+    top: 84.7%;
+    left: 60.5%;
+}
+
+#setting {
+    background-image: url(../source/setting.jpg);
+    background-size: cover;
+    top: 85%;
+    width: 13.4%;
+    height: 6.9%;
+    left: 61.3%;
+    border-radius: 13px;
+}
+
+#camera:hover {
+    width: 14.85%;
+    height: 7.48%;
+    top: 84.7%;
+    left: 78.4%;
+}
+
+#camera {
+    background-image: url(../source/camera.jpg);
+    background-size: cover;
+    top: 85%;
+    width: 13.4%;
+    height: 6.9%;
+    left: 79.4%;
+    border-radius: 13px;
+}
+
+#messenger:hover {
+    width: 14.85%;
+    height: 7.48%;
+    top: 84.7%;
+    left: 6.2%;
+}
+
+#messenger {
+    background-image: url(../source/messenger.jpg);
+    background-size: cover;
+    top: 85%;
+    width: 13.4%;
+    height: 6.9%;
+    left: 7%;
+    border-radius: 13px;
+}
+
+#unlock_clock {
+    user-select: none;
+    color: white;
+    background: transparent;
+    width: 50%;
+    height: 8%;
+    position: absolute;
+    width: 50%;
+    left: 9%;
+    top: 5.5%;
+    font-size: 210%;
+    font-weight: 350;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: calc(1.07*18px);
+    margin: 0px auto;
+}
+
+#unlock_day {
+    user-select: none;
+    color: white;
+    background: transparent;
+    width: 50%;
+    height: 8%;
+    position: absolute;
+    width: 50%;
+    left: 12.3%;
+    top: 12%;
+    font-size: 1%;
+    font-weight: 100;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: calc(1.07*18px);
+    margin: 0px auto;
+}
+
+#weather {
+    background-image: url(../source/weather.jpg);
+    background-size: cover;
+    top: 4.59%;
+    width: 25%;
+    height: 11%;
+    left: 69.8%;
+}
+
+#clock_cover {
+    background-image: url(../source/clock_cover.jpg);
+    background-size: cover;
+    top: 2.5%;
+    width: 16%;
+    height: 5%;
+    left: 3.9%;
+    border-radius: 6px;
+}
+
+#front_camera {
+    position: absolute;
+    background-image: url(../source/front_camera.jpg);
+    background-size: contain;
+    top: 96.5%;
+    width: 4.5%;
+    height: 2.3%;
+    left: 85%;
+    border-radius: 200px;
+    z-index: 20000000000;
+}
