@@ -3588,6 +3588,7 @@ body {
 }
 
 .navbar .navbar-nav .nav-link:not(.btn) i.fa,
+.navbar .navbar-nav .nav-link:not(.btn) i.fa-brands,
 .navbar .navbar-nav .nav-link:not(.btn) i.now-ui-icons {
   font-size: 18px;
   position: relative;
