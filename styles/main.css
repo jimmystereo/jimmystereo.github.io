@@ -1543,7 +1543,7 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 }
 
 .btn-primary {
-  background-color: #FFB236;
+  background-color: #faba52;
   color: #FFFFFF;
 }
 
@@ -2833,16 +2833,16 @@ textarea.form-control:active {
 }
 
 .progress-container.progress-primary .progress {
-  background: rgba(165, 54, 255, 0.384);
+  background: #e9dcca;
 }
 
 .progress-container.progress-primary .progress-bar {
-  background: rgb(165, 54, 255);
+  background: #F1C275;
 }
 
 .progress-container.progress-primary .progress-value,
 .progress-container.progress-primary .progress-badge {
-  color: rgb(165, 54, 255);
+  color: #F1C275;
 }
 
 .progress-container.progress-info .progress {
@@ -3378,7 +3378,9 @@ body {
 .nav-pills.nav-pills-primary .nav-item .nav-link.active,
 .nav-pills.nav-pills-primary .nav-item .nav-link.active:focus,
 .nav-pills.nav-pills-primary .nav-item .nav-link.active:hover {
-  background-color: rgb(255, 167, 167) !important;
+  /* background-color: rgb(255, 167, 167) !important; */
+    background-color: #F1C275 !important;
+
 }
 
 .nav-pills.nav-pills-info .nav-item .nav-link.active,
@@ -3659,7 +3661,7 @@ body {
 }
 
 .navbar.navbar-transparent {
-  background-color: #FFB236 !important;
+  background-color: #faba52 !important;
   -webkit-box-shadow: none;
   box-shadow: none;
   color: #FFFFFF;
@@ -3695,7 +3697,9 @@ body {
 }
 
 #gray_cards {
-  background-color: rgb(169, 169, 169) !important;
+  /* background-color: #FFB236 !important; */
+  background-color: #F1C275 !important;
+
 }
 #card_1 {
   background-color: rgb(197, 78, 167) !important;
@@ -3719,11 +3723,16 @@ body {
 
 
 #card_ntu {
-  background-color: rgb(255, 167, 167) !important;
+  background-color: #F1C275 !important;
 }
 
 .bg-primary {
-  background-color: rgb(165, 54, 255) !important;
+  
+  /* background-color: #FFB236 !important; */
+  background-color: #F1C275 !important;
+
+  /* background-color: rgb(165, 54, 255) !important; */
+
 }
 
 .bg-info {
@@ -5533,9 +5542,11 @@ Created using IcoMoon - icomoon.io
   content: "";
 }
 
-.page-header:before {
+/* Note: This is the layer of the header picture!! */
+
+/* .page-header:before {
   background-color: rgba(0, 0, 0, 0.5);
-}
+} */
 
 .page-header[filter-color="orange"] {
   background: rgba(44, 44, 44, 0.2);
@@ -7879,4 +7890,11 @@ a.credit {
 /* Common Style */
 .section {
   padding-bottom: 0;
+}
+
+.info_link{
+
+    z-index: 10000;
+    position: relative;
+  
 }

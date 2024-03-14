@@ -1,0 +1,61 @@
+Date : 2023-01-23 13:27:56
+Directory : /Users/jimmy/Documents/GitHub/jimmystereo.github.io/final
+Total : 31 files,  245 codes, 60 comments, 15 blanks, all 320 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| Markdown   |          1 |        191 |          0 |         12 |        203 |
+| JavaScript |         16 |         22 |         58 |          0 |         80 |
+| HTML       |          1 |         19 |          2 |          3 |         24 |
+| CSS        |         13 |         13 |          0 |          0 |         13 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                   | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                      |         31 |        245 |         60 |         15 |        320 |
+| . (Files)                                                                              |          2 |        210 |          2 |         15 |        227 |
+| css                                                                                    |         13 |         13 |          0 |          0 |         13 |
+| js                                                                                     |         16 |         22 |         58 |          0 |         80 |
++----------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                               | language   | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| /Users/jimmy/Documents/GitHub/jimmystereo.github.io/final/README.md                    | Markdown   |        191 |          0 |         12 |        203 |
+| /Users/jimmy/Documents/GitHub/jimmystereo.github.io/final/css/app.099c3420.css         | CSS        |          1 |          0 |          0 |          1 |
+| /Users/jimmy/Documents/GitHub/jimmystereo.github.io/final/css/app.108d7360.css         | CSS        |          1 |          0 |          0 |          1 |
+| /Users/jimmy/Documents/GitHub/jimmystereo.github.io/final/css/app.1a494abd.css         | CSS        |          1 |          0 |          0 |          1 |
+| /Users/jimmy/Documents/GitHub/jimmystereo.github.io/final/css/app.591accb2.css         | CSS        |          1 |          0 |          0 |          1 |
+| /Users/jimmy/Documents/GitHub/jimmystereo.github.io/final/css/app.7135d48d.css         | CSS        |          1 |          0 |          0 |          1 |
+| /Users/jimmy/Documents/GitHub/jimmystereo.github.io/final/css/app.771c8094.css         | CSS        |          1 |          0 |          0 |          1 |
+| /Users/jimmy/Documents/GitHub/jimmystereo.github.io/final/css/app.7b97f3dc.css         | CSS        |          1 |          0 |          0 |          1 |
+| /Users/jimmy/Documents/GitHub/jimmystereo.github.io/final/css/app.90d4a135.css         | CSS        |          1 |          0 |          0 |          1 |
+| /Users/jimmy/Documents/GitHub/jimmystereo.github.io/final/css/app.97c32ae7.css         | CSS        |          1 |          0 |          0 |          1 |
+| /Users/jimmy/Documents/GitHub/jimmystereo.github.io/final/css/app.9be057ca.css         | CSS        |          1 |          0 |          0 |          1 |
+| /Users/jimmy/Documents/GitHub/jimmystereo.github.io/final/css/app.baf65ce0.css         | CSS        |          1 |          0 |          0 |          1 |
+| /Users/jimmy/Documents/GitHub/jimmystereo.github.io/final/css/app.cc71fcd0.css         | CSS        |          1 |          0 |          0 |          1 |
+| /Users/jimmy/Documents/GitHub/jimmystereo.github.io/final/css/app.e3012495.css         | CSS        |          1 |          0 |          0 |          1 |
+| /Users/jimmy/Documents/GitHub/jimmystereo.github.io/final/index.html                   | HTML       |         19 |          2 |          3 |         24 |
+| /Users/jimmy/Documents/GitHub/jimmystereo.github.io/final/js/app.031ae3d6.js           | JavaScript |          1 |          1 |          0 |          2 |
+| /Users/jimmy/Documents/GitHub/jimmystereo.github.io/final/js/app.167e7084.js           | JavaScript |          1 |          1 |          0 |          2 |
+| /Users/jimmy/Documents/GitHub/jimmystereo.github.io/final/js/app.2c3b5e26.js           | JavaScript |          1 |          1 |          0 |          2 |
+| /Users/jimmy/Documents/GitHub/jimmystereo.github.io/final/js/app.2cff80c0.js           | JavaScript |          1 |          1 |          0 |          2 |
+| /Users/jimmy/Documents/GitHub/jimmystereo.github.io/final/js/app.5e556ea0.js           | JavaScript |          1 |          1 |          0 |          2 |
+| /Users/jimmy/Documents/GitHub/jimmystereo.github.io/final/js/app.66bfa9d5.js           | JavaScript |          1 |          1 |          0 |          2 |
+| /Users/jimmy/Documents/GitHub/jimmystereo.github.io/final/js/app.773b5055.js           | JavaScript |          1 |          1 |          0 |          2 |
+| /Users/jimmy/Documents/GitHub/jimmystereo.github.io/final/js/app.7f82cc3b.js           | JavaScript |          1 |          1 |          0 |          2 |
+| /Users/jimmy/Documents/GitHub/jimmystereo.github.io/final/js/app.846ada1d.js           | JavaScript |          1 |          1 |          0 |          2 |
+| /Users/jimmy/Documents/GitHub/jimmystereo.github.io/final/js/app.a2c91aee.js           | JavaScript |          1 |          1 |          0 |          2 |
+| /Users/jimmy/Documents/GitHub/jimmystereo.github.io/final/js/app.a649d950.js           | JavaScript |          1 |          1 |          0 |          2 |
+| /Users/jimmy/Documents/GitHub/jimmystereo.github.io/final/js/app.a98936f8.js           | JavaScript |          1 |          1 |          0 |          2 |
+| /Users/jimmy/Documents/GitHub/jimmystereo.github.io/final/js/app.c96b9e7b.js           | JavaScript |          1 |          1 |          0 |          2 |
+| /Users/jimmy/Documents/GitHub/jimmystereo.github.io/final/js/app.e5091d89.js           | JavaScript |          1 |          1 |          0 |          2 |
+| /Users/jimmy/Documents/GitHub/jimmystereo.github.io/final/js/chunk-vendors.00b3a2d2.js | JavaScript |          5 |         33 |          0 |         38 |
+| /Users/jimmy/Documents/GitHub/jimmystereo.github.io/final/js/chunk-vendors.1116bd6d.js | JavaScript |          3 |         11 |          0 |         14 |
+| Total                                                                                  |            |        245 |         60 |         15 |        320 |
++----------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
