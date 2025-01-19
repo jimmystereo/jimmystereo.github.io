@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redis Search</title>
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+          background-color: #f4f4f9;
+        }
+        .search-container {
+          text-align: center;
+        }
+        .search-bar {
+          padding: 10px;
+          width: 300px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+        }
+        .results {
+          margin-top: 20px;
+        }
+        .result-item {
+          margin: 5px 0;
+          padding: 5px 10px;
+          background-color: #fff;
+          border: 1px solid #ddd;
+          border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+<div class="search-container">
+    <input
+            type="text"
+            id="search-bar"
+            class="search-bar"
+            placeholder="Search..."
+            oninput="performSearch()"
+    />
+    <div id="results" class="results"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
